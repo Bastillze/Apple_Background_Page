@@ -1,0 +1,92 @@
+#globalheader{
+top: 18px;   
+position: relative;
+display: block;
+width: 980px;
+height: 36px;
+margin: 18px auto;
+padding-bottom: 20px;
+text-align: left;
+z-index: 9998;
+border-radius: 4px;
+font: 18px "Lucida Grande";
+background-color:dimgrey;
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 0%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 0%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 0%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+#globalheader #globalnav{
+position: relative;
+display: table;
+float: left;
+width: 845px;
+padding: 0;
+table-layout: fixed;
+list-style:none;
+z-index: 0;
+
+}
+
+#globalnav li  {
+    
+display: table-cell;
+width: 100%;
+padding: 0;
+list-style: none;
+overflow: hidden;
+
+}
+
+
+
+#billboard{
+
+position: absolute;
+top: 0;
+right: 0;
+bottom: 292px;
+left: 0;
+overflow: hidden;
+background-color: green;
+}
+
+
+#billboard .hero {
+right: auto;
+left: 50px;
+width: 1440px;
+background-color: red;
+}
+
+.promos{
+
+position: absolute;
+z-index: 1;
+bottom: 90px;
+overflow: hidden;
+width: 100%;
+height: 200px;
+background: yellow;
+
+
+}
+
+#homefooter{
+
+position: absolute;
+z-index: 1;
+right: 0;
+bottom: 0;
+left: 0;
+margin: 0;
+min-width: 980px;
+width: 100%;
+height: 90px;
+padding: 0;
+background-color:chocolate;
+zoom: 1;
+
+}
